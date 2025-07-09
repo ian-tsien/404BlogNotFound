@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: 404 Blog Not Found
+subtitle: Road to Nowhere
+description: This is a blog that scribes about programming and quantitative finance.
+keywords: programming, quantative finance
+author: Ian Tsien
 language: en
-timezone: ''
+timezone: 'Asia/Hong_Kong' # Set your timezone, e.g. 'Asia/Hong_Kong', 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://ian-tsien.github.io/404BlogNotFound
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
