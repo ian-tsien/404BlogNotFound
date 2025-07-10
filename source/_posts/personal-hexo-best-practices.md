@@ -1,9 +1,15 @@
 ---
 title: personal hexo best practices
-date: 2025-07-10 16:57:22
+language: en
+date: 2025-07-10 22:31:17
+categories:
+- tools
 tags:
+- configuration
+cover: /gallery/covers/hexo_cover.png
+thumbnail: /gallery/covers/hexo_cover.png
 ---
-# Personal Hexo best practices
+
 
 The following is the definition given by official websites.
 
@@ -23,17 +29,13 @@ It is better to use [GitHub Actions](https://docs.github.com/en/actions) to depl
 
 As a former, follow the [official deployment guide](https://hexo.io/docs/github-pages). But here is a tip you should follow: you can directly choose a suitable repository name instead of following the format of `username.github.io`, for the reason that the former one will generate a more readable URL like `https://ian-tsien.github.io/404BlogNotFound/` than `https://ian-tsien.github.io/ian-tsien.github.io/`.
 
-> [!TIP]
+> :warning:
 >
 > It works for me, but I don't guarantee it will work for you either.
 
 ## Theme and Plugins
 
 The definition of beauty varies from person to person. I chose **[hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus)** as my theme 
-
-
-
-
 
 ## Writing Process
 
@@ -44,4 +46,4 @@ The definition of beauty varies from person to person. I chose **[hexo-theme-ica
 
 [how to wirte a good technical article](https://www.freecodecamp.org/news/how-to-write-a-great-technical-blog-post-414c414b67f6/)
 
-[hexo official website](https://hexo.io)
+[hexo official website](
