@@ -229,24 +229,24 @@ widgets:
         # Author's current location
         location: Hong Kong
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/avatar.gif
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
         follow_link: https://github.com/ian-tsien
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/ian-tsien
+            Email:
+                icon: fas fa-envelope
+                url: mailto:ian.tsien.contact@gmail.com
             LinkedIn:
                 icon: fab fa-linkedin
                 url: https://www.linkedin.com/in/ian-tsien/
-            RSS:
-                icon: fas fa-rss
-                url: /
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -290,7 +290,7 @@ widgets:
         # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
         order_by: name
         # Amount of tags to show. Will show all if not set.
-        amount: 
+        amount: 20
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
     # Google FeedBurner email subscription widget configurations
@@ -379,7 +379,7 @@ plugins:
     katex: false
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-    mathjax: false
+    mathjax: true
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
     outdated_browser: true
