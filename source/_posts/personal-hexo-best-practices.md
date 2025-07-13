@@ -3,11 +3,11 @@ title: personal hexo best practices
 language: en
 date: 2025-07-10 22:31:17
 categories:
-- tools
+- miscellanea
 tags:
-- configuration
-cover: /gallery/covers/hexo_cover.png
-thumbnail: /gallery/covers/hexo_cover.png
+- Hexo
+cover: /gallery/covers/hexo.png
+thumbnail: /gallery/covers/hexo.png
 ---
 
 
@@ -39,7 +39,7 @@ The definition of beauty varies from person to person. I chose **[hexo-theme-ica
 * Switch the branch of the repository to [`site`](https://github.com/ppoffice/hexo-theme-icarus/tree/site) and plagiarize two configuration files `_config.yml` and `_config.icarus.yml`, by replacing your personal information. Notice that there are some useless or deprecated files like `_config.post.yml` and fields in `_config.yml` like `deploy` since you have chosen [GitHub Actions](https://docs.github.com/en/actions) to deploy GitHub Pages, and `algolia` since you have chosen you won't use [`hexo-algolia`](https://github.com/oncletom/hexo-algolia) as your search plugin.
 * Go to my [repository](https://github.com/ian-tsien/404BlogNotFound) and plagiarize my personalized configuration files `_config.yml` and `_config.icarus.yml`, by replacing your personal information. It is easier to accomplish your files because I have eliminated unnecessary content.
 
-Read the website [articles](https://ppoffice.github.io/hexo-theme-icarus/) written by the plugin developer to get a quick overview of the plugins included in this theme and personalize your blog style. You need to install three additional plugins, [hexo-filter-github-emojis](https://github.com/crimx/hexo-filter-github-emojis), [hexo-renderer-marked](https://github.com/hexojs/hexo-renderer-marked), and [hexo-image-link](https://github.com/cocowool/hexo-image-link) to support parsing Markdown grammar. 
+Read the website [articles](https://ppoffice.github.io/hexo-theme-icarus/) written by the plugin developer to get a quick overview of the plugins included in this theme and personalize your blog style. You need to install three additional plugins, [hexo-filter-github-emojis](https://github.com/crimx/hexo-filter-github-emojis), [hexo-renderer-marked](https://github.com/hexojs/hexo-renderer-marked), and [hexo-image-link](https://github.com/cocowool/hexo-image-link) to support parsing Markdown grammar. 
 
 Besides the plugins mentioned above, you can also scan [Hexo plugins](https://hexo.io/plugins/) to choose your own,  but I think the ones listed are sufficient, as the content of your blog is more important than its appearance or functionality.
 
